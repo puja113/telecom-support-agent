@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq-billing-cycle",
+    "title": "Understanding your billing cycle",
+    "content": "Your bill is generated on the same date each month, based on your plan's activation date. It includes your fixed plan charge, any pay-per-use add-ons (extra data, international minutes), pro-rated charges if you changed plans mid-cycle, and applicable taxes. A bill can be higher than usual if you crossed your data limit, added a premium OTT bundle, made international calls, or upgraded your plan partway through the month - in that case you're charged a pro-rated amount for both the old and new plan."
+  },
+  {
+    "id": "faq-plan-upgrade",
+    "title": "How to upgrade or downgrade your plan",
+    "content": "You can change your plan anytime from the app or by contacting support. Upgrades take effect immediately and are billed pro-rata for the rest of the current cycle. Downgrades take effect at the start of your next billing cycle to avoid losing benefits you've already paid for. There is no upgrade fee. If you're on a contract plan, downgrading before your contract ends may involve an early-change fee, which support can confirm based on your specific plan."
+  },
+  {
+    "id": "faq-wifi-troubleshooting",
+    "title": "Troubleshooting home WiFi and connectivity issues",
+    "content": "If your WiFi is slow or disconnecting: restart the router by unplugging it for 30 seconds, check for an outage in your area, ensure no more than the recommended number of devices are connected simultaneously, and move the router away from thick walls or large appliances. Persistent issues after a restart usually indicate a line fault or outage on our end rather than a home network issue, and should be escalated to a technician visit."
+  },
+  {
+    "id": "faq-roaming-charges",
+    "title": "International roaming and charges",
+    "content": "Roaming is disabled by default and must be activated before travel, either in the app or by contacting support. Without an active roaming pack, calls, texts, and data abroad are billed at standard per-use roaming rates, which are significantly higher than domestic rates and are a common cause of unexpectedly high bills. Roaming packs are available for single countries or regional bundles and should be purchased before departure for the best rates."
+  },
+  {
+    "id": "faq-digital-wallet",
+    "title": "Digital wallet top-ups and payments",
+    "content": "The digital wallet can be topped up via linked bank account, debit/credit card, or UPI. Top-ups above a threshold may require additional verification for security. Wallet balance can be used to pay bills, recharge prepaid plans, or make in-app purchases. If a top-up succeeds but the balance doesn't reflect within a few minutes, this is usually a delay in confirmation from the payment provider rather than a lost payment, and it typically resolves within 30 minutes."
+  },
+  {
+    "id": "faq-ott-bundles",
+    "title": "OTT and entertainment bundle subscriptions",
+    "content": "OTT bundles (streaming subscriptions bundled into your plan) renew automatically each cycle unless cancelled at least 24 hours before renewal. Cancelling a bundle stops future renewals but does not refund the current cycle, since access continues until the end of the paid period. Bundle price increases are communicated in advance via SMS and app notification before they take effect."
+  }
+]

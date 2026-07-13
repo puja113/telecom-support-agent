@@ -1,0 +1,76 @@
+[
+  {
+    "customerId": "CUST-1001",
+    "name": "Ananya Rao",
+    "plan": {
+      "name": "Unlimited Plus",
+      "monthlyPrice": 799,
+      "data": "75GB/month",
+      "calls": "Unlimited",
+      "ottBundle": "StreamMax (included)"
+    },
+    "bill": {
+      "cycle": "Jun 12 - Jul 11, 2026",
+      "totalAmount": 1249,
+      "breakdown": [
+        { "item": "Unlimited Plus plan", "amount": 799 },
+        { "item": "Extra data (12GB over limit)", "amount": 240 },
+        { "item": "International roaming (Germany, 3 days)", "amount": 150 },
+        { "item": "Taxes", "amount": 60 }
+      ]
+    },
+    "wifi": {
+      "status": "degraded",
+      "lastOutageArea": "Sector 21, Gurugram",
+      "note": "Minor fiber line fault reported in your area, technician assigned, ETA 6 hours."
+    }
+  },
+  {
+    "customerId": "CUST-1002",
+    "name": "Rohan Mehta",
+    "plan": {
+      "name": "Smart Saver",
+      "monthlyPrice": 349,
+      "data": "20GB/month",
+      "calls": "Unlimited",
+      "ottBundle": "None"
+    },
+    "bill": {
+      "cycle": "Jun 12 - Jul 11, 2026",
+      "totalAmount": 349,
+      "breakdown": [
+        { "item": "Smart Saver plan", "amount": 349 }
+      ]
+    },
+    "wifi": {
+      "status": "online",
+      "lastOutageArea": null,
+      "note": "No issues reported on your connection."
+    }
+  },
+  {
+    "customerId": "CUST-1003",
+    "name": "Priya Nair",
+    "plan": {
+      "name": "Family Share 4-Line",
+      "monthlyPrice": 1499,
+      "data": "150GB shared/month",
+      "calls": "Unlimited",
+      "ottBundle": "StreamMax + MusicWave"
+    },
+    "bill": {
+      "cycle": "Jun 12 - Jul 11, 2026",
+      "totalAmount": 1899,
+      "breakdown": [
+        { "item": "Family Share 4-Line plan", "amount": 1499 },
+        { "item": "Plan upgrade proration (mid-cycle)", "amount": 340 },
+        { "item": "Taxes", "amount": 60 }
+      ]
+    },
+    "wifi": {
+      "status": "online",
+      "lastOutageArea": null,
+      "note": "No issues reported on your connection."
+    }
+  }
+]
