@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 
 const API_URL = import.meta.env.VITE_API_URL || "";
 
-console.log('api url is here ==>>',API_URL)
 
 const SUGGESTIONS = [
   "Why is my bill higher this month?",
@@ -58,6 +57,8 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const scrollRef = useRef(null);
+  console.log('api url is here ==>>',API_URL)
+
 
   useEffect(() => {
     fetch(`${API_URL}/api/customers`)
