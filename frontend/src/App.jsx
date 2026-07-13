@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
+const API_URL = import.meta.env.VITE_API_URL || "";
+
 const SUGGESTIONS = [
   "Why is my bill higher this month?",
   "What plan am I on?",
@@ -56,7 +58,7 @@ export default function App() {
   const scrollRef = useRef(null);
 
   useEffect(() => {
-    fetch("/api/customers")
+    fetch(`${API_URL}/api/customers`)
       .then((r) => r.json())
       .then((data) => {
         setCustomers(data);
@@ -80,7 +82,7 @@ export default function App() {
     setError(null);
 
     try {
-      const res = await fetch("/api/chat", {
+      const res = await fetch(`${API_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

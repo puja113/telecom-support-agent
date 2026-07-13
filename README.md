@@ -66,6 +66,22 @@ npm run dev
 
 Runs on `http://localhost:5173` and proxies `/api/*` to the backend.
 
+By default the frontend talks to the backend via Vite's dev proxy
+(`localhost:4000`). To point it at a deployed backend (e.g. Railway) instead,
+set `VITE_API_URL` in `frontend/.env` (copy `frontend/.env.example`):
+
+```bash
+cd frontend
+cp .env.example .env
+# .env already points VITE_API_URL at the Railway deployment; edit if needed
+npm run dev
+```
+
+When you build the frontend for production (`npm run build`), set
+`VITE_API_URL` to the deployed backend URL wherever you host the built
+frontend (e.g. as an environment variable in Vercel/Netlify), since Vite's dev
+proxy doesn't exist in a static build.
+
 ### 3. Try it
 
 Pick a mock customer in the sidebar, then ask things like:
