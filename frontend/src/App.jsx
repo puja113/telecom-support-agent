@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 
 const API_URL = import.meta.env.VITE_API_URL || "";
 
+console.log('api url is here ==>>',API_URL)
+
 const SUGGESTIONS = [
   "Why is my bill higher this month?",
   "What plan am I on?",
